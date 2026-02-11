@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "channels": [
+    {
+      "id": 1,
+      "name": "Sample Sports Channel",
+      "category_id": 1,
+      "logo": "https://via.placeholder.com/150",
+      "stream_url": "https://example.com/live/stream.m3u8",
+      "type": "hls",
+      "quality": ["SD", "HD"],
+      "status": "online"
+    }
+  ]
+}
