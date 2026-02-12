@@ -1,1 +1,4 @@
 https://example.com/stream.m3u8| عدد خلقه سبحان الله وبحمده
+https://example.com/channel1.m3u8|قناة الكأس 1
+https://example.com/match_live.mp4|مباراة اليوم: ريال مدريد ضد برشلونة
+https://example.com/sports_news.m3u8|أخبار الرياضة مباشر
