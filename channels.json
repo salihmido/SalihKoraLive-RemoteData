@@ -1,28 +1,20 @@
-{
-  "version": 2,
-  "last_update": "2026-02-11",
-  "channels": [
-    {
-      "id": 1,
-      "name": "Sports Channel 1",
-      "category_id": 1,
-      "logo": "https://via.placeholder.com/300x300",
-      "banner": "https://via.placeholder.com/800x400",
-      "streams": [
-        {
-          "quality": "SD",
-          "url": "https://example.com/live_sd.m3u8"
-        },
-        {
-          "quality": "HD",
-          "url": "https://example.com/live_hd.m3u8"
-        }
-      ],
-      "backup_stream": "https://example.com/backup.m3u8",
-      "type": "hls",
-      "is_featured": true,
-      "status": "online",
-      "order": 1
-    }
-  ]
-}
+data class RootResponse(
+    val version: Int,
+    val last_update: String,
+    val channels: List<Channel>
+)
+
+data class Channel(
+    val id: Int,
+    val name: String,
+    val category_id: Int,
+    val logo: String,
+    val streams: List<Stream>,
+    val backup_stream: String,
+    val status: String
+)
+
+data class Stream(
+    val quality: String,
+    val url: String
+)
