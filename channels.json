@@ -1,20 +1,69 @@
-data class RootResponse(
-    val version: Int,
-    val last_update: String,
-    val channels: List<Channel>
-)
-
-data class Channel(
-    val id: Int,
-    val name: String,
-    val category_id: Int,
-    val logo: String,
-    val streams: List<Stream>,
-    val backup_stream: String,
-    val status: String
-)
-
-data class Stream(
-    val quality: String,
-    val url: String
-)
+{
+  "version": 1,
+  "last_update": "2026-02-26",
+  "channels": [
+    {
+      "id": 1,
+      "name": "Global Index",
+      "category_id": 1,
+      "logo": "https://iptv-org.github.io/logo.png",
+      "streams": [{"quality": "HD", "url": "https://iptv-org.github.io/iptv/index.m3u"}],
+      "backup_stream": "https://iptv-org.github.io/iptv/index.m3u",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "France",
+      "category_id": 2,
+      "logo": "https://iptv-org.github.io/logo_fr.png",
+      "streams": [{"quality": "HD", "url": "https://iptv-org.github.io/iptv/countries/fr.m3u"}],
+      "backup_stream": "https://iptv-org.github.io/iptv/countries/fr.m3u",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "China",
+      "category_id": 3,
+      "logo": "https://iptv-org.github.io/logo_cn.png",
+      "streams": [{"quality": "HD", "url": "https://iptv-org.github.io/iptv/countries/cn.m3u"}],
+      "backup_stream": "https://iptv-org.github.io/iptv/countries/cn.m3u",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "name": "Arabic",
+      "category_id": 4,
+      "logo": "https://iptv-org.github.io/logo_ara.png",
+      "streams": [{"quality": "HD", "url": "https://iptv-org.github.io/iptv/languages/ara.m3u"}],
+      "backup_stream": "https://iptv-org.github.io/iptv/languages/ara.m3u",
+      "status": "active"
+    },
+    {
+      "id": 5,
+      "name": "English",
+      "category_id": 5,
+      "logo": "https://iptv-org.github.io/logo_eng.png",
+      "streams": [{"quality": "HD", "url": "https://iptv-org.github.io/iptv/languages/eng.m3u"}],
+      "backup_stream": "https://iptv-org.github.io/iptv/languages/eng.m3u",
+      "status": "active"
+    },
+    {
+      "id": 6,
+      "name": "Sports",
+      "category_id": 6,
+      "logo": "https://iptv-org.github.io/logo_sport.png",
+      "streams": [{"quality": "HD", "url": "https://iptv-org.github.io/iptv/categories/sport.m3u"}],
+      "backup_stream": "https://iptv-org.github.io/iptv/categories/sport.m3u",
+      "status": "active"
+    },
+    {
+      "id": 7,
+      "name": "Movies",
+      "category_id": 7,
+      "logo": "https://iptv-org.github.io/logo_movies.png",
+      "streams": [{"quality": "HD", "url": "https://iptv-org.github.io/iptv/categories/movies.m3u"}],
+      "backup_stream": "https://iptv-org.github.io/iptv/categories/movies.m3u",
+      "status": "active"
+    }
+  ]
+}
