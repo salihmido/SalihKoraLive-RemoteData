@@ -1,9 +1,4 @@
 https://iptv-org.github.io/iptv/index.m3u
-https://iptv-org.github.io
-https://iptv-org.github.io
-ttps://www.apsatv.com/lg.m3u
- https://iptv-org.github.io/iptv/categories/sports.m3u
- https://iptv-org.github.io/iptv/categories/movies.m3u
- https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ci.m3u
- https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ba.m3u
- https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/co.m3u
+https://iptv-org.github.io/iptv/index.sport.m3u
+https://iptv-org.github.io/iptv/index.full.m3u
+https://iptv-org.github.io/iptv/index.country.m3u
