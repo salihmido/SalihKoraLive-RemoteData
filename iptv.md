@@ -1,1 +1,1 @@
-0
+https://gist.githubusercontent.com/dap8shift/fb877c5c227dbd61137e8c6c3d06d8ec/raw/ac1b7a904fe449cc564a2bc3715aeef593a35216/blabla.m3u
